@@ -13,4 +13,5 @@ Run this powershell script to save time setting things up.
 
 ### Credits
 modified script from a [chris titus](https://github.com/ChrisTitusTech/win10script)
+
 free background photos from [pngtree.com](https://pngtree.com/free-backgrounds)
