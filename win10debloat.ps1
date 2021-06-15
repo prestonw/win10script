@@ -37,19 +37,34 @@ $Panel1.width                    = 1032
 $Panel1.location                 = New-Object System.Drawing.Point(9,90)
 
 $Label1                          = New-Object system.Windows.Forms.Label
-$Label1.text                     = "Program Installation"
+$Label1.text                     = "Disable Window 10 Stuff & Install Useful Stuff"
 $Label1.AutoSize                 = $true
 $Label1.width                    = 25
 $Label1.height                   = 10
 $Label1.location                 = New-Object System.Drawing.Point(10,30)
-$Label1.Font                     = New-Object System.Drawing.Font('Microsoft Sans Serif',30)
+$Label1.Font                     = New-Object System.Drawing.Font('Microsoft Sans Serif',24)
+
+$Label1                          = New-Object system.Windows.Forms.Label
+$Label1.text                     = "Install Useful Stuff"
+$Label1.AutoSize                 = $true
+$Label1.width                    = 25
+$Label1.height                   = 10
+$Label1.location                 = New-Object System.Drawing.Point(10,30)
+$Label1.Font                     = New-Object System.Drawing.Font('Microsoft Sans Serif',18)
 
 $installchoco                    = New-Object system.Windows.Forms.Button
-$installchoco.text               = "Install Chocolatey"
-$installchoco.width              = 200
-$installchoco.height             = 115
+$installchoco.text               = "Chocolatey"
+$installchoco.width              = 150
+$installchoco.height             = 30
 $installchoco.location           = New-Object System.Drawing.Point(16,19)
 $installchoco.Font               = New-Object System.Drawing.Font('Microsoft Sans Serif',16)
+
+$gchrome                         = New-Object system.Windows.Forms.Button
+$gchrome.text                    = "Google Chrome"
+$gchrome.width                   = 150
+$gchrome.height                  = 30
+$gchrome.location                = New-Object System.Drawing.Point(250,104)
+$gchrome.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
 
 $brave                           = New-Object system.Windows.Forms.Button
 $brave.text                      = "Brave Browser"
@@ -92,13 +107,6 @@ $notepad.width                   = 150
 $notepad.height                  = 30
 $notepad.location                = New-Object System.Drawing.Point(417,104)
 $notepad.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
-
-$gchrome                         = New-Object system.Windows.Forms.Button
-$gchrome.text                    = "Google Chrome"
-$gchrome.width                   = 150
-$gchrome.height                  = 30
-$gchrome.location                = New-Object System.Drawing.Point(250,104)
-$gchrome.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
 
 $mpc                             = New-Object system.Windows.Forms.Button
 $mpc.text                        = "Media Player Classic"
@@ -171,14 +179,14 @@ $backgroundapps.location         = New-Object System.Drawing.Point(251,45)
 $backgroundapps.Font             = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
 
 $cortana                         = New-Object system.Windows.Forms.Button
-$cortana.text                    = "Cortana"
+$cortana.text                    = "Disable Cortana"
 $cortana.width                   = 150
 $cortana.height                  = 30
 $cortana.location                = New-Object System.Drawing.Point(251,82)
 $cortana.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
 
 $windowssearch                   = New-Object system.Windows.Forms.Button
-$windowssearch.text              = "Windows Search"
+$windowssearch.text              = "Disable Search"
 $windowssearch.width             = 150
 $windowssearch.height            = 30
 $windowssearch.location          = New-Object System.Drawing.Point(417,119)
