@@ -10,3 +10,6 @@ Run this powershell script to save time setting things up.
 `irm w.preston.ie/win10script|iex`
 
 ![Windows Powershell (Admin)](https://share.preston.ie/nOuPDmmE/download/Image%202021-06-15%20at%206.34.39%20PM.png)
+
+### Credits
+free background photos from [pngtree.com](https://pngtree.com/free-backgrounds)
