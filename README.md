@@ -12,4 +12,5 @@ Run this powershell script to save time setting things up.
 ![Windows Powershell (Admin)](https://share.preston.ie/nOuPDmmE/download/Image%202021-06-15%20at%206.34.39%20PM.png)
 
 ### Credits
+modified script from a [chris titus](https://github.com/ChrisTitusTech/win10script)
 free background photos from [pngtree.com](https://pngtree.com/free-backgrounds)
