@@ -5,8 +5,9 @@ Run this powershell script to save time setting things up.
 - Enter password and Allow.
 - Copy & Paste the script below:
 
-*Powershell Script:*
-```iex ((New-Object System.Net.WebClient).DownloadString('https://w.preston.ie/win10script'))```
+**Powershell Script:**
+
+`iex "&{$(irm w.preston.ie/win10script)}RunJob"`
 
 ![Windows Powershell (Admin)](https://share.preston.ie/nOuPDmmE/download/Image%202021-06-15%20at%206.34.39%20PM.png)
 
