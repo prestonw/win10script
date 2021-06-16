@@ -1,9 +1,9 @@
 # Windows 10 Startup Script
 Run this powershell script to save time setting things up.
 
-* Right click the start button and select Windows Powershell (Admin).
-* Enter password and Allow.
-* Copy & Paste the script below:
+1. Right click the start button and select Windows Powershell (Admin).
+2. Enter password and Allow.
+3. Copy & Paste the script below:
 
 **Powershell Script:**
 
